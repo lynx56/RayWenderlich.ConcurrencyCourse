@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5394F02521864DF5006E754C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5394F02321864DF4006E754C /* LaunchScreen.storyboard */; };
+		88C17CD524531D3400649A0D /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C17CD424531D3400649A0D /* ImageDataProvider.swift */; };
 		88D85DA4244F443F00B328CF /* TiltShiftOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D85DA3244F443F00B328CF /* TiltShiftOperation.swift */; };
 		88D85DB0244F660200B328CF /* NetworkImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D85DAF244F660200B328CF /* NetworkImageOperation.swift */; };
 		88D85DB4244F666800B328CF /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D85DB3244F666800B328CF /* AsyncOperation.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		5394F02421864DF4006E754C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88C17CD424531D3400649A0D /* ImageDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataProvider.swift; sourceTree = "<group>"; };
 		88D85DA3244F443F00B328CF /* TiltShiftOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltShiftOperation.swift; sourceTree = "<group>"; };
 		88D85DAF244F660200B328CF /* NetworkImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageOperation.swift; sourceTree = "<group>"; };
 		88D85DB3244F666800B328CF /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				88D85DA3244F443F00B328CF /* TiltShiftOperation.swift */,
 				88D85DAF244F660200B328CF /* NetworkImageOperation.swift */,
 				88D85DB3244F666800B328CF /* AsyncOperation.swift */,
+				88C17CD424531D3400649A0D /* ImageDataProvider.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				D2CC8F0F220890C50025B523 /* TiltShiftFilter.swift in Sources */,
 				D2CC8F11220C93EF0025B523 /* ExampleViewController.swift in Sources */,
 				D27437502211DC9F00B1E02F /* TiltShiftTableViewController.swift in Sources */,
+				88C17CD524531D3400649A0D /* ImageDataProvider.swift in Sources */,
 				88D85DB0244F660200B328CF /* NetworkImageOperation.swift in Sources */,
 				88D85DB4244F666800B328CF /* AsyncOperation.swift in Sources */,
 				88D85DA4244F443F00B328CF /* TiltShiftOperation.swift in Sources */,
